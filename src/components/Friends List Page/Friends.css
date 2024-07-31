@@ -1,0 +1,83 @@
+.friendsContainer{
+    min-height: 100vh;
+    max-width: 100vw;
+    display: flex;
+    position: relative;
+}
+.friendsContainer .leftSide{
+    width: 25%;
+    background: white;
+    margin-top: 40px;
+    position: fixed;
+    min-height: 100%;
+}
+.friendsContainer .rightSide{
+    width: 75%;
+    background: rgba(128, 128, 128, 0.196);
+    padding: 30px 50px;
+    margin-top: 50px;
+    margin-left: 25%;
+}
+.leftSide .heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    margin-top: 20px;
+}
+.leftSide .heading .settingIcon,
+.leftSide  .leftList .eachPoint .friendIcon,
+.leftSide  .leftList .eachPoint .icon{
+    background: rgba(128, 128, 128, 0.467);
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    padding: 4px;
+}
+.leftSide .leftList{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-left: 20px;
+}
+.leftSide .leftList .point1{
+    background: rgba(128, 128, 128, 0.156);
+    padding: 10px;
+    width: 98%;
+    border-radius: 8px;
+}
+.leftSide .leftList .eachPoint{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.leftSide  .leftList .eachPoint .pointTxt{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.leftSide  .leftList .eachPoint .friendIcon{
+    background: rgba(0, 0, 255, 0.755);
+    color: white;
+}
+.leftSide  .leftList .eachPoint .arrowIcon{
+    font-size: 25px;
+    color: rgba(128, 128, 128, 0.955);
+    margin-right: 5px;
+}
+.friendsContainer .rightSide .heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.friendsContainer .rightSide .heading a{
+    text-decoration: none;
+    color: rgba(0, 0, 255, 0.726);
+}
+.rightSide .requestBoxes{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}

@@ -1,0 +1,73 @@
+
+.loginContainer{
+    height: 100vh;
+    background: rgba(188, 186, 186, 0.14);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.leftSide h1{
+    color: rgba(0, 0, 255, 0.91);
+}
+.leftSide p{
+    width: 300px;
+}
+.rightSide .loginBox{
+    width: 250px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: white;
+    border-radius: 4px;
+    gap: 8px;
+}
+.loginBox input{
+    height: 30px;
+    padding: 0 8px;
+    outline: none;
+}
+.loginBox input:focus{
+    border-color: blue;
+}
+.loginBox .loginBtn{
+    background: rgba(0, 0, 255, 0.91);
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+}
+.loginBox .loginBtn:hover{
+    cursor: pointer;
+    background: rgba(21, 21, 218, 0.944);
+    transform: scale(0.98);
+}
+.loginBox a{
+    font-size: x-small;
+    text-align: center;
+    margin-bottom: 5px;
+    color: blue;
+    text-decoration: none;
+}
+.loginBox .error{
+    color: red;
+    font-size: 11px;
+}
+.createBtn{
+    display: flex;
+    justify-content: center;
+}
+.loginBox .createNewAccBtn{
+    background: rgb(148, 238, 14);
+    color: white;
+    padding: 5px;
+    width: 150px;
+    border-radius: 3px;
+    border: none;
+    display: inline-block;
+    margin-top: 10px;
+} 
+.loginBox .createNewAccBtn:hover{
+    background: rgba(152, 222, 47, 0.988);
+    transform: scale(0.98);
+}

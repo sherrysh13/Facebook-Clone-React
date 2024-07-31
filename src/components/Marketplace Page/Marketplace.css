@@ -1,0 +1,51 @@
+.marketplaceContainer{
+    min-height: 100vh;
+    max-width: 100vw;
+    background: rgba(192, 192, 192, 0.416);
+    position: relative;
+}
+.marketplaceContainer .heading{
+    color: #000;
+    text-align: center;
+    background: rgba(192, 192, 192, 0.916);
+    padding: 10px 20px;
+    position: absolute;
+    margin-top: 70px;
+    left: 35%;
+    border-radius: 5px;
+}
+.marketplaceContainer .productBoxes{
+    padding: 20px;
+}
+
+.marketplaceContainer .bodyContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 120px 0;
+}
+.marketplaceContainer .productBox{
+    height: 300px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.marketplaceContainer .productBox .image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.productBox .price, .title{
+    margin-left: 10px;
+}
+.marketplaceContainer .productBox img{
+    height: 200px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}

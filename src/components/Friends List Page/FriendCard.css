@@ -1,0 +1,63 @@
+.rightSide .reqBox{
+    height: 300px;
+    width: 200px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.rightSide .reqBox img{
+    height: 150px;
+    width: 200px;
+    object-fit: cover;
+    object-position: top;
+}
+.rightSide .reqBox .buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    margin-top: 10px;
+
+}
+.rightSide .reqBox .name, .followers{
+    margin-left: 12px;
+}
+.rightSide .reqBox p{
+    font-size: 12px;
+    margin-top: 3px;
+}
+.rightSide .reqBox button{
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.rightSide .reqBox .btn1{
+    background: rgba(0, 0, 255, 0.799);
+    color: white;
+}
+.rightSide .reqBox .btn2, .btn4{
+    background: rgba(128, 128, 128, 0.299);
+    color: black;
+}
+.rightSide .reqBox .btn1:hover{
+    background: rgba(0, 0, 255, 0.599);
+    cursor: pointer;
+}
+    .rightSide .reqBox .btn2:hover,
+    .rightSide .reqBox .btn4:hover{
+    background: rgba(128, 128, 128, 0.599);
+    cursor: pointer;
+}
+.rightSide .reqBox .btn3{
+    background: rgba(0, 0, 255, 0.799);
+    color: white;
+    /* font-weight: bolder; */
+}
+.rightSide .reqBox .btn3:hover{
+    background: rgba(0, 0, 255, 0.675);
+    cursor: pointer;
+}
